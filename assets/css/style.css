@@ -1,0 +1,14 @@
+.navbar{
+    padding: 2rem 8rem;
+}
+
+@media(max-width: 988px){
+    .navbar{
+        padding: 1rem;
+    }
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    padding: 0 1rem;   
+}
+
