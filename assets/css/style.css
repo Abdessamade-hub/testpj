@@ -1,13 +1,17 @@
+
+/* ajouter padding pour navigation  */
 .navbar{
     padding: 2rem 8rem;
 }
 
+/* pour les appareils moins 999px witdh  */
 @media(max-width: 988px){
     .navbar{
         padding: 1rem;
     }
 }
 
+/* Ajouter padding pour les liens du menu */
 #navbarSupportedContent > ul > li:nth-child(n) > a{
     padding: 0 1rem;   
 }
