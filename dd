@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <!-- Titre de site  -->
+        <title>Test-integration</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!-- CSS Pésonnalisé -->
+        <link rel="stylesheet" href="assets/css/style.css"> 
+    </head>
+    <body>
+
+      <header>
+        <!-- Début Navigation bar  -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <!-- Lien vers la page principale -->
+                <a class="navbar-brand" href="#">LOGO</a>
+
+                  <!-- bouton Hambureger pour afficher le menu sur le mobile  -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <!-- Début Menu  -->
+                <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+                  <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link text-uppercase " href="#">accueil</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-uppercase" href="#">création de jardin</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-uppercase" href="#">entretien de jardin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#">contact</a>
+                      </li>
+                  </ul>
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </div>
+                <!-- Fin Menu  -->
+            </nav>
+        <!-- Fin Navigation bar  -->
+
+        <!-- Début Carousel -->
+            <section>
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="assets/img/slide1.jpg" alt="Premier slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/img/slide2.jpg" alt="deuxièmme slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/img/slide3.jpg" alt="Troisième slide">
+                      </div>
+                    </div>
+                  </div>
+            </section>
+        <!-- Fin Carousel -->
+      </header>
+
+      <div  class="view">
+         <div class="row">
+            <div id="intro" class="col-md-6"></div>
+            <div class="col-md-5">
+              <h2>Aux jardins du lys</h2>
+              <p>Professinnels de l'aménagement paysager et de l'entretien d jargdin, nous invertissons notre passion et une expérience curnulée au fil des saisons pour rendrevos jardins toujours plus luxirante.</p>
+              <p> Des broussailles gênantes, des feuilles qui obstruent la vue ou encombrent un paysage, notre éuipe sera à l'écoute de vos attente pour redonner à votre jardin l'aspect désiré </p>
+              </p>
+            </div>
+         </div>
+      </div>
+
+
+        <!-- JS Pérsonnalisé  -->
+        <script src="assets/js/main.js"></script>
+        <!-- Jquery  -->
+        <script src="assets/js/jquery.min.js"></script>
+        <!-- JS Bootstrap  -->
+        <script src="assets/js/bootstrap.min.js"></script>
+    </body>
+</html>
